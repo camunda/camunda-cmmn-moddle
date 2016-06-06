@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/camunda/camunda-cmmn-moddle.svg)](https://travis-ci.org/camunda/camunda-cmmn-moddle)
 
-This project defines the [Camunda](https://camunda.org) namespace extensions for CMMN 1.1 as a [moddle](https://github.com/cmmn-io/moddle) descriptor.
+This project defines the [Camunda](https://camunda.org) namespace extensions for CMMN 1.1 as a [moddle](https://github.com/bpmn-io/moddle) descriptor.
 
 
 ## Usage
 
-Use it together with [cmmn-moddle](https://github.com/cmmn-io/cmmn-moddle) to validate Camunda CMMN 1.1 extensions.
+Use it together with [cmmn-moddle](https://github.com/bpmn-io/cmmn-moddle) to validate Camunda CMMN 1.1 extensions.
 
 ```javascript
 var CmmnModdle = require('cmmn-moddle');
