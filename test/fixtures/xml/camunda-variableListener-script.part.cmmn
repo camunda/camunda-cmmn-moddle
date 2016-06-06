@@ -1,0 +1,6 @@
+<camunda:variableListener xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+                           event="update">
+  <camunda:script scriptFormat="groovy">
+    foo = bar;
+  </camunda:script>
+</camunda:variableListener>

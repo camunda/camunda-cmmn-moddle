@@ -1,0 +1,5 @@
+<camunda:variableListener xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+  event='update'
+  class='my.company.Listener'
+  delegateExpression="${myListener}"
+  expression="${myListener.notify(execution)}" />

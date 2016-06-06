@@ -1,0 +1,5 @@
+<camunda:caseExecutionListener xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+  event="complete"
+  class="my.company.Listener"
+  delegateExpression="${myExecutionListener}"
+  expression="${myExecutionListener.notify(execution)}" />

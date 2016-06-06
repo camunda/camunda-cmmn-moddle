@@ -1,0 +1,6 @@
+<camunda:caseExecutionListener xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+                           event="complete">
+  <camunda:script scriptFormat="groovy">
+    foo = bar;
+  </camunda:script>
+</camunda:caseExecutionListener>

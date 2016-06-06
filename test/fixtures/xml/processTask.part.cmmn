@@ -1,0 +1,5 @@
+<processTask xmlns="http://www.omg.org/spec/CMMN/20151109/MODEL"
+              xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+              camunda:processBinding="foo"
+              camunda:processVersion="1"
+              camunda:processTenantId="bar" />

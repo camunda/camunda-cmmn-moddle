@@ -1,0 +1,7 @@
+<decisionTask xmlns="http://www.omg.org/spec/CMMN/20151109/MODEL"
+              xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+              camunda:decisionBinding="foo"
+              camunda:decisionVersion="1"
+              camunda:decisionTenantId="bar"
+              camunda:mapDecisionResult="resultList"
+              camunda:resultVariable="aVariable" />

@@ -1,0 +1,6 @@
+<camunda:taskListener xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+                           event="create">
+  <camunda:script scriptFormat="groovy">
+    foo = bar;
+  </camunda:script>
+</camunda:taskListener>

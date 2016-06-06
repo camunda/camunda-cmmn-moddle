@@ -1,0 +1,5 @@
+<caseTask xmlns="http://www.omg.org/spec/CMMN/20151109/MODEL"
+              xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+              camunda:caseBinding="foo"
+              camunda:caseVersion="1"
+              camunda:caseTenantId="bar" />
