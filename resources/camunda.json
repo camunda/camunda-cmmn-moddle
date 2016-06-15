@@ -195,8 +195,7 @@
         {
           "name": "repeatOnStandardEvent",
           "isAttr": true,
-          "type": "String",
-          "default": "complete"
+          "type": "String"
         }
       ]
     },
