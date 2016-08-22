@@ -245,6 +245,40 @@ describe('read', function() {
         });
       });
 
+
+      it('fields', function(done) {
+
+        // given
+        var xml = readFile('test/fixtures/xml/camunda-caseExecutionListener-fields.part.cmmn');
+
+        // when
+        moddle.fromXML(xml, 'camunda:CaseExecutionListener', function(err, executionListener) {
+
+          // then
+          expect(executionListener).to.jsonEqual({
+            $type: 'camunda:CaseExecutionListener',
+            event: 'start',
+            'class': 'my.company.Listener',
+            fields : [
+              {
+                $type: 'camunda:Field',
+                name: 'fieldOne',
+                stringValue: 'myString'
+              },
+              {
+                $type: 'camunda:Field',
+                name: 'fieldTwo',
+                expression: '${myExpression}'
+              }
+            ]
+          });
+
+          done(err);
+        });
+
+      });
+
+
     });
 
 
