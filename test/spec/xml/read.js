@@ -448,6 +448,27 @@ describe('read', function() {
 
     });
 
+
+    it('camunda:variableOnPart', function(done) {
+
+      // given
+      var xml = readFile('test/fixtures/xml/camunda-variable-on-part.part.cmmn');
+
+      // when
+      moddle.fromXML(xml, 'camunda:VariableOnPart', function(err, onPart) {
+
+        // then
+        expect(onPart).to.jsonEqual({
+          $type: 'camunda:VariableOnPart',
+          variableName: 'foo',
+          variableEvent: 'create'
+        });
+
+        done(err);
+      });
+
+    });
+
   });
 
 });

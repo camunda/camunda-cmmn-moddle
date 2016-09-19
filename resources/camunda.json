@@ -297,6 +297,21 @@
       "superClass": [
         "Listener"
       ]
+    },
+    {
+      "name": "VariableOnPart",
+      "superClass": [ "Element" ],
+      "properties": [
+        {
+          "name": "variableEvent",
+          "type": "String"
+        },
+        {
+          "name": "variableName",
+          "type": "String",
+          "isAttr": true
+        }
+      ]
     }
   ],
   "emumerations": [ ]

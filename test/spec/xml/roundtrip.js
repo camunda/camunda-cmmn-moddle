@@ -50,6 +50,8 @@ describe('import -> export roundtrip', function() {
 
     it('camunda:InputOutput', validateExport('test/fixtures/xml/listener-camunda-nestedScript.cmmn'));
 
+    it('camunda:VariableOnPart', validateExport('test/fixtures/xml/sentry-camunda-variable-on-part.cmmn'));
+
   });
 
 });

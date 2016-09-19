@@ -1,0 +1,4 @@
+<camunda:variableOnPart xmlns:camunda="http://camunda.org/schema/1.0/cmmn"
+  variableName="foo">
+  <camunda:variableEvent>create</camunda:variableEvent>
+</camunda:variableOnPart>
