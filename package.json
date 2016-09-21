@@ -1,6 +1,6 @@
 {
   "name": "camunda-cmmn-moddle",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Camunda moddle extensions for CMMN 1.1",
   "scripts": {
     "all": "grunt",
