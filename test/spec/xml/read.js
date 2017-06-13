@@ -16,6 +16,29 @@ describe('read', function() {
     });
 
 
+    describe('camunda:historyTimeToLive', function() {
+
+      it('on Case', function(done) {
+
+        // given
+        var xml = readFile('test/fixtures/xml/case-camunda-historyTimeToLive.part.cmmn');
+
+        // when
+        moddle.fromXML(xml, 'cmmn:Case', function(err, cmmnCase) {
+
+          // then
+          expect(cmmnCase).to.jsonEqual({
+            $type: 'cmmn:Case',
+            historyTimeToLive: 'foo'
+          });
+
+          done(err);
+        });
+
+      });
+    });
+
+
     describe('camunda:priority', function() {
 
       it('on HumanTask', function(done) {

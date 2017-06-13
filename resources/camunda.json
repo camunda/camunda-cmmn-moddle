@@ -8,6 +8,18 @@
   "associations": [],
   "types": [
     {
+      "name": "Case",
+      "isAbstract": true,
+      "extends": [ "cmmn:Case" ],
+      "properties": [
+        {
+          "name": "historyTimeToLive",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
       "name": "InOutBinding",
       "superClass": [
         "Element"
