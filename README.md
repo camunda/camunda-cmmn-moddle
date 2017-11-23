@@ -1,6 +1,6 @@
 # camunda-cmmn-moddle
 
-[![Build Status](https://travis-ci.org/camunda/camunda-cmmn-moddle.svg)](https://travis-ci.org/camunda/camunda-cmmn-moddle)
+[![Build Status](https://travis-ci.org/camunda/camunda-cmmn-moddle.svg?branch=master)](https://travis-ci.org/camunda/camunda-cmmn-moddle)
 
 This project defines the [Camunda](https://camunda.org) namespace extensions for CMMN 1.1 as a [moddle](https://github.com/bpmn-io/moddle) descriptor.
 
@@ -24,20 +24,18 @@ var humanTask = moddle.create('cmmn:HumanTask', {
 
 ## Building the Project
 
-You need [grunt](http://gruntjs.com) to build the project.
-
 To run the test suite that includes XSD schema validation you must have a Java JDK installed and properly exposed through the `JAVA_HOME` variable.
 
 Execute the test via
 
 ```
-grunt test
+npm test
 ```
 
-Perform a complete build of the application via
+Perform a complete build of the library via
 
 ```
-grunt
+npm run all
 ```
 
 
