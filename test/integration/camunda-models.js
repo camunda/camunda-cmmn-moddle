@@ -22,8 +22,15 @@ describe.skip('camunda models', function() {
   it('should parse camunda extensions', function(done) {
 
     var allFiles = [].concat(
-          glob.sync('**/*.cmmn', { cwd: diagramPath, dot: true, ignore: '*/Cmmn10CompatibilityTest*.cmmn' }),
-          glob.sync('**/*.cmmn11.xml', { cwd: diagramPath, dot: true })
+      glob.sync('**/*.cmmn', {
+        cwd: diagramPath,
+        dot: true,
+        ignore: '*/Cmmn10CompatibilityTest*.cmmn'
+      }),
+      glob.sync('**/*.cmmn11.xml', {
+        cwd: diagramPath,
+        dot: true
+      })
     );
 
     var results = {
