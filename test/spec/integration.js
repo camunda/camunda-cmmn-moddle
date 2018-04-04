@@ -1,6 +1,6 @@
 'use strict';
 
-var CmmnModdle = require('cmmn-moddle');
+var CmmnModdle = require('cmmn-moddle').default;
 
 var camundaDescriptor = require('../../resources/camunda');
 
