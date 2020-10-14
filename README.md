@@ -1,6 +1,6 @@
 # camunda-cmmn-moddle
 
-[![Build Status](https://travis-ci.org/camunda/camunda-cmmn-moddle.svg?branch=master)](https://travis-ci.org/camunda/camunda-cmmn-moddle)
+[![Build Status](https://travis-ci.com/camunda/camunda-cmmn-moddle.svg?branch=master)](https://travis-ci.com/camunda/camunda-cmmn-moddle)
 
 This project defines the [Camunda](https://camunda.org) namespace extensions for CMMN 1.1 as a [moddle](https://github.com/bpmn-io/moddle) descriptor.
 
